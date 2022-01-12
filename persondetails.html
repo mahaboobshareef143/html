@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color: greenyellow;">
+    <form>
+        <hr>
+        <div class="container">
+            <center><h1 style="color: red;">Person Details</h1>
+            
+            <label>UserName:</label>
+            <input type="text" name="username" placeholder= "UserName" size="15" required />   
+            <br> <br>
+            
+            <label>Password:</label>
+            <input type="text" name="password" placeholder="Password" size="15" required />
+            <br> <br>
+            <label>Email Id:</label>
+            <input type="text" name="emailid" placeholder="Email Id" size="15" required />
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" value="male" name="gender" >Male
+            <input type="radio" value="female" name="gender">Female
+            <input type="radio" value="others" name="gender">Others
+            <br><br>
+            <label>Contact:</label>
+            <input type="text" name="contact" placeholder="contact" size="15" required />
+            <br><br>
+            <hr>
+            <h2 style="color: red;">Educational Qualification</h2>
+            Degree:  
+        </label>   
+          
+        <select>  
+        <option value="Course">SelectCourse</option>  
+        <option value="B.Tech">B.Tech</option>  
+        <option value="MBA">MBA</option>  
+        <option value="MCA">MCA</option>  
+        <option value="M.Tech">M.Tech</option>  
+        </select>
+        <br><br>
+        Engineering:  
+        </label>   
+          
+        <select>  
+        <option value="SelectGroup">SelectGroup</option>  
+        <option value="ece">ECE</option>  
+        <option value="eee">EEE</option>  
+        <option value="cse">CSE</option>  
+        <option value="civil">CIVIL</option>  
+        <option value="mech">MECH</option>  
+        <option value="it">IT</option>  
+        </select>  
+        <br><br>
+
+        <label>HOBBIES:</label>
+            <input type="radio" value="male" name="gender" >Playing Cricket
+            <input type="radio" value="female" name="gender">Playing Chess
+            <input type="radio" value="others" name="gender">Reading Books
+            <br><br>
+           <h3 style="color: red;">Current Address:</h3> 
+            <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+            </textarea>
+            <br><br>
+            <label>Attach Resume:</label>
+            <input type="text" name="attach resume" placeholder="Attach Resume" size="15" required />
+            <br><br>
+            <button type="submit" style="background-color: red;" class="registerbtn">submit</button>
+        </center>
+        </div>
+    </form>
+</body>
+</html>
